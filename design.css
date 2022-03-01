@@ -1,0 +1,208 @@
+body{
+	margin: 30px;
+	background-color: #3CB371;
+}
+
+@media (min-width: 780px){
+	.main-content{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+}
+
+.header-content{
+	/* display: flex;
+	align-items: center; */
+
+}
+
+.logo{
+	flex:3;
+    text-align: center;
+}
+
+.logo h1{
+	font-size: 45px;
+	color: rgb(0, 3, 3);
+}
+
+.logo h1:hover{
+	/* letter-spacing: 2px;
+	text-shadow: 2px 2px #ff0000; */
+}
+
+
+.nav-menu{
+	text-align: right;
+	flex: 2;
+	margin-right: 250px;
+}
+
+.nav-menu a{
+	font-size: 25px;
+	text-decoration: none;
+	padding: 10px;
+	margin: 10px;
+	margin-right: 300px;
+	border: 1px solid red;
+	color: #0c0b01;
+	background-color: #00f8706c;
+	border-radius: 5px;
+}
+
+.nav-menu a:hover{
+	/* font-size: 35px;
+	text-decoration: none;
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid rgb(248, 249, 250);
+	color: #eeedde;
+	background-color: #141e27;
+	border-radius: 20px;
+	box-shadow: 1px 2px 3px 1px rgba(4, 65, 156, 0.726); */
+}
+
+
+.post{
+	width: 300px;
+	height: 400px;
+	overflow: hidden;
+	border-radius: 15px;
+	padding: 10px;
+	background-color: #FFFFFF;
+	box-shadow: 4px 6px 20px 4px black;
+	margin-bottom: 40px;
+	
+}
+
+.post h1{
+	text-align: center;
+	color: #000000;
+	font-size: 33px;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	text-decoration: ;
+	letter-spacing: 2px;
+}
+
+.post img{
+	border-radius: 15px;
+}
+
+.post p {
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	font-family: arial;
+	line-height: 25px;
+}
+
+.post:hover{
+	box-shadow: none;
+	background-color:#319739;
+	border-radius: 15px;
+}
+
+.my-team{
+	display: flex;
+	justify-content: space-around;
+}
+
+.main-team{
+	width: 350px;
+	height: 350px;
+	box-shadow: 2px 3px 20px 5px rgb(250, 250, 250);
+	padding: 20px;
+	border-radius: 25px;
+}
+
+.profile{
+	display: flex;
+	align-items: center;
+}
+.profile-picture{
+	flex: 1;
+}
+
+.profile-picture img{
+	width: 160px;
+	height: 150px;
+	border-radius: 60%;
+}
+
+.profile-name{
+	flex: 1;
+	margin-bottom: 100px;
+	font-weight: 900;
+	font-size: 150%;
+}
+.social-icon{
+	display: flex;
+	align-items: center;
+}
+
+.facebook{
+	flex: 1;
+}
+
+.facebook img:hover{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.facebook img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.twitter{
+	flex: 1;
+}
+
+.twitter img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.instagram{
+	flex: 1;
+}
+.instagram img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.youtube{
+	flex: 1;
+}
+.youtube img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 45px;
+	margin-right: 45px;
+}
+
+.footer img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.footer a img{
+		width: 50px;
+		height: 50px;
+		margin-right: 20px;
+}
